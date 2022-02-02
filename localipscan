@@ -1,0 +1,14 @@
+#!/bin/python
+
+import sys, os
+
+try:
+	for x in range(int(sys.argv[1])):
+		os.system("sudo nmap -T5 --min-parallelism 100 -sn 192.168."+str(x)+".0/24")
+
+except KeyboardInterrupt:
+	print("\nExiting program.")
+	sys.exit()
+
+#ex:
+#./ipscanner.py 256 | grep -e "MAC Address" -e "Nmap scan" >> coolips.txt
