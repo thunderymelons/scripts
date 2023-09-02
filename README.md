@@ -5,3 +5,5 @@
 
 #checklist is just a checklist u can check off for what you want to get done for the day. you can make it open on start up so that you can check it off and be done for the day when you are done.
 #MAKE SURE that you have a file called "tracker_counter.txt" in the same folder as this script with a simple 0 on the first line and nothing else
+
+#barebonecalendar is a calendar with not enough features but gets some kind of job done
